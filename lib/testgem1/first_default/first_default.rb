@@ -4,7 +4,7 @@ module Testgem1
   module_function
 
   def first_default(params={})
-   puts "first_default: #{params}"
+   params
   end
 
  end

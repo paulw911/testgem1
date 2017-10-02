@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+Testgem1::Calculation.new(2,3).calculation # 6
+Testgem1::FirstDefault::first_default({test1: 'test1'}) # {test1: 'test1'}
+Testgem1::SecondDefault::second_default({test2: 'test2'}) # {test2: 'test2'}
+```
 
 ## Development
 
@@ -40,4 +44,4 @@ The gem is available as open source under the terms of the [MIT License](http://
 
 ## Code of Conduct
 
-Everyone interacting in the Testgem1 project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/testgem1/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Testgem1 project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/paulw911/testgem1/blob/master/CODE_OF_CONDUCT.md).

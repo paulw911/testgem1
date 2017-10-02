@@ -4,7 +4,7 @@ module Testgem1
   module_function
 
   def second_default(params={})
-   puts "second_default: #{params}"
+   params
   end
 
  end
