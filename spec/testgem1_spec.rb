@@ -5,7 +5,7 @@ RSpec.describe Testgem1 do
     expect(Testgem1::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "Calculation returns the sum of value1 and value2" do
+    expect(Testgem1::Calculation.new(1,2).calculation).to eq(2)
   end
 end
